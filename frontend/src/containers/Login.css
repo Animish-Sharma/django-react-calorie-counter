@@ -1,0 +1,136 @@
+body,
+html{
+    width:100%;
+    height: 100%;
+    margin: 0;
+}
+
+.login{
+    height: 629px;
+    background-color:#f9b4ab;
+    color:#272643;
+}
+.header-login{
+    width: 100%;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.form{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    flex-flow: row wrap;
+}
+.login-title{
+    font-size: 3rem;
+    transition: all ease 0.3s;
+}
+.login-title:hover{
+    font-size:3.5rem;
+    letter-spacing: 1px;
+    transition: all ease 0.3s;
+}
+.login-header-title{
+    align-self: center;
+}
+.login-form-image{
+    flex:0.5;
+}
+.login-img{
+    flex:0.5;
+    height:100%;
+    width:94%;
+    border-radius: 19px;
+    margin-left:20px;
+}
+.login-form{
+    padding-top:3rem;
+    display:flex;
+    background-color:#fff;
+    flex:0.5;
+    color:black;
+    border-radius: 19px;
+    flex-flow: column wrap;
+    margin-right: 2rem;
+    margin: 20px;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+.login-label{
+    margin-left: 30px;
+    font-size: 1.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+}
+#login-email,
+#login-password{
+    width:75%;
+    align-self: center;
+    height:35px;
+    font-size: 20px;
+    outline: none;
+    border: 2px solid #C1436D;
+    border-radius: 5px;
+    transition: 0.27s ease;
+}
+
+#submit{
+    background-color: #ff6680;
+    margin-top: 20px;
+    width: 30%;
+    align-self: center;
+    height: 40px;
+    font-size: 1.3rem;
+    border: 2px solid #ff6680;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    outline:none;
+    transition: all ease 0.3s;
+}
+#submit:hover{
+    background-color:#fff;
+    color:#272643;
+    transition: all ease 0.3s;
+    font-size: 1.6rem;
+    width: 35%;
+    height: 45px;
+    cursor: pointer;
+}
+.form-signup-text{
+    text-align: center;
+    font-size:1.3rem;
+    transition:all ease 0.3s;
+}
+a{
+    text-decoration: none;
+}
+
+.form-signup-text:hover{
+    font-size: 1.5rem;
+    letter-spacing: 0.1px;
+    transition: all ease 0.3s;
+}
+
+#login-email:hover,
+#login-password:hover{
+    background-color: #f1e8e6;
+    caret-color: black;
+    color: black;
+    transition: all ease 0.2s;
+    height: 40px;
+    font-size:25px;
+}
+
+#login-email{
+    margin-bottom: 1.2rem;
+}
+
+#para{
+    margin-left:30px;
+    font-size:1.2rem
+}

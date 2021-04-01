@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Convergence&display=swap');
+.items{
+    background-color: #64379f;
+    height:100%;
+}
+.error-items{
+    display:flex;
+    flex-flow:row wrap;
+}
+.error-image{
+    width: 600px;
+    height: 600px;
+}
+
+.error-items-text{
+    display: flex;
+    width:700px;
+    height: 300px;
+    flex-flow:column wrap;
+    align-items:center;
+    border: 3px solid white;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 100px;
+    background-color: white;
+}
+
+.error-items-header{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+
+.error-items-paragraph{
+    font-size:1.5rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#error-items-logout{
+    margin-top: 10px;
+    border: 2px solid #64379f;
+    width: 35%;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 1.5rem;
+    background-color: #64379f;
+    border-radius: 8px;
+    transition: all ease 0.3s;
+}
+
+#error-items-logout:hover{
+    border: 1px solid #27104e;
+    background-color:#492b7c;
+    color: #fff29c;
+    width: 40%;
+    height: 50px;
+    transition: all ease 0.3s;
+}
+.items-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.items-list-header{
+    color: white;
+    font-family: 'Convergence', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.items-card-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.items-card-image-div{
+    display: flex;
+    justify-content:center;
+}
+
+
+.items-card-image{
+    width: 340px;
+    display:flex;
+    height: 320px;
+    border-radius: 10px;
+}
+
+.items-list-card{
+    margin-left: 40px;
+    border: 2px solid white;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 344px;
+}
+.card-title{
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0;
+    font-family: 'Proza Libre', sans-serif;
+    text-transform: uppercase;
+}
+
+.card-detail-info{
+    font-size: 1.1rem;
+    font-family: 'Rubik',sans-serif;
+}
+.card-links{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.read-more-items{
+    border: 2px solid #ff6680;
+    background-color: #ff6680;
+    color:#fff;
+    width: 120px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size:1.1em;
+    outline: none;
+}
+
+.add-to-list{
+    background-color: #40c484;
+    outline: none;
+    border: 2px solid #40c484;
+    width:150px;
+    border-radius: 10px;
+    color:#fff;
+    font-size:1.1rem;
+}
+
+.add-to-list{
+    cursor: pointer;
+}

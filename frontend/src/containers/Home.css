@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.home{
+    background-color:#64379f;
+    height:629px;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+}
+.home-title{
+    display: flex;
+    flex-flow: column wrap;
+    align-items:center;
+    font-size: 3rem;
+    font-family: 'Roboto',sans-serif;
+    letter-spacing:2px;
+}
+
+.home-card{
+    margin-left: 250px;
+    border:1px solid #fff;
+    background-color:#fff;
+    color: black;
+    height: 400px;
+    width:900px;
+    border-radius: 20px;
+    display:flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.card-img{
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.home-img{
+    width: 364px;
+    height:364px;
+}
+
+.home-card-text{
+    text-align: center;
+    font-weight: 700;
+    font-size:1.3rem;
+    font-family: 'Rubik',sans-serif;
+}
+
+.card-header{
+    font-size: 2rem;
+    margin: 30px 20px;
+    font-family: 'Ubuntu',sans-serif;
+    text-transform: uppercase;
+}
+
+#redirect-link{
+    border:2px solid #64379f;
+    width:55%;
+    height: 55px;
+    margin-top: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items:center;
+    color: black;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    transition: all ease 0.2s;
+}
+
+#redirect-link:hover{
+    border: 2px solid #27104e;
+    background-color: #64379f;
+    color: white;
+    transition: all ease 0.3s;
+}

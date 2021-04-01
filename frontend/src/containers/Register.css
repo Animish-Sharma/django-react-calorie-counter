@@ -1,0 +1,108 @@
+.register-top{
+    background-color: #f9b4ab;
+    height:629px;
+}
+
+.register-header{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    transition: all ease 0.3s;
+}
+#register-text{
+    justify-content: center;
+    font-size: 1.1rem;
+}
+
+.register-form{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.register-form-image{
+    flex:0.5;
+}
+
+#register-img{
+    width: 92%;
+    height:100%;
+    border: 1px solid white;
+    background-color: #fff;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+.register-form-fields{
+    display: flex;
+    align-items: space-between;
+    clear:both;
+    flex:0.5;
+    margin-right: 20px;
+    flex-flow: column wrap;
+    border: 1px solid white;
+    background: #fff;
+    border-radius: 15px;
+}
+
+#name,
+#register-email,
+#register-password,
+#password2{
+    width: 90%;
+    font-size: 15px;
+    height: 30px;
+    margin-bottom: 2px;
+    margin-left:30px;
+    border: 2px solid #ff6680;
+    outline:none;
+    transition: all ease 0.3s;
+    border-radius: 5px;
+}
+
+#name:hover,
+#register-email:hover,
+#register-password:hover,
+#password2:hover{
+    background-color:#ffd9e4;
+    transition: all ease 0.3s;
+    height: 35px;
+    font-size: 20px;
+    color: #272643;
+    caret-color: #272643;
+}
+
+.register-label{
+    margin:5px auto 10px 10px;
+    font-size:1.2rem;
+
+}
+
+.register-button{
+    width: 30%;
+    margin-top:12px;
+    align-self: center;
+    height:40px;
+    font-size:1.2rem;
+    outline:none;
+    border: 2px solid #fff;
+    color:#fff;
+    border-radius: 7px;
+    background-color: #ff6680;
+    transition:all ease 0.3s;
+}
+
+.register-button:hover{
+    border: 2px solid #ff6680;
+    cursor: pointer;
+    color:#b34766;
+    background-color:#ffd9e4;
+    font-size: 1.4rem;
+    height: 50px;
+    width: 35%;
+    transition: all ease 0.3s;
+}
+.login-link{
+    align-self: center;
+    font-size: 1.2rem;
+}

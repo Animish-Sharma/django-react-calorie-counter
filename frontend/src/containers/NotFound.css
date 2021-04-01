@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+.not-found{
+    background-color: #64379f;
+    height: 629px;
+    display: flex;
+    flex-direction: column;
+}
+.not-found-image-div{
+    border: 1px solid #fff;
+    background-color:#fff;
+    border-radius: 40px;
+}
+
+.not-found-image{
+    width:500px;
+    height:300px;
+    margin-left: 435px;
+}
+
+.not-found-card{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    color:white;
+    margin-top: 40px;
+}
+
+.not-found-header{
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.not-found-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family:'New Sans JP', sans-serif;
+    text-align: center;
+}
